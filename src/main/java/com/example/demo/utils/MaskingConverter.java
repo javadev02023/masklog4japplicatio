@@ -41,7 +41,7 @@ public class MaskingConverter extends LogEventPatternConverter {
     private String maskSensitiveValues(String message) {
         // Replace sensitive values with masked value    	
         message = message.replaceAll("(?<=firstName=')[^']+?(?=')|(?<=\"firstName\":\")[^\"]+?(?=\")", "****");
-		
+        message = message.replaceAll("(?<=AccountNumber=')[^']+?(?=')|(?<=\"AccountNumber\":\")[^\"]+?(?=\")", "****");        
 		message = message.replaceAll("(?<=lastName=')[^']+?(?=')|(?<=\"lastName\":\")[^\"]+?(?=\")", "****");
 		message = message.replaceAll("(?<=age=)\\d+(?=(,|\\s|}))|(?<=\"age\":)\\d+(?=(,|\\s|}))", "****");
 		message = message.replaceAll("(?<=creditCardNumber=)\\d+(?=(,|\\s|}))|(?<=\"creditCardNumber\":)\\d+(?=(,|\\s|}))","****");

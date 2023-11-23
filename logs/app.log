@@ -52,3 +52,124 @@
 21:42:37.249 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}
 21:43:02.387 [http-nio-8010-exec-1] INFO  com.example.demo.controller.PersonController - Person List [Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}, Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='MNO PQR Street'}]
 21:43:02.424 [http-nio-8010-exec-1] INFO  com.example.demo.controller.PersonController - Person List - JSON output [{"firstName":"****","lastName":"****","age":****,"creditCardNumber":****,"address":"ABC XYZ Street"},{"firstName":"****","lastName":"****","age":****,"creditCardNumber":****,"address":"MNO PQR Street"}]
+14:35:32.856 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.7 with PID 13504 (C:\Spring_worksplace\workspace1\Demo1\target\classes started by SadaqatKhan in C:\Spring_worksplace\workspace1\Demo1)
+14:35:32.872 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+14:35:34.861 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 2.423 seconds (process running for 3.344)
+14:35:34.868 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}
+14:36:27.605 [http-nio-8010-exec-3] INFO  com.example.demo.controller.PersonController - Person List [Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}, Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='MNO PQR Street'}]
+14:36:27.657 [http-nio-8010-exec-3] INFO  com.example.demo.controller.PersonController - Person List - JSON output [{"firstName":"****","lastName":"****","age":****,"creditCardNumber":****,"address":"ABC XYZ Street"},{"firstName":"****","lastName":"****","age":****,"creditCardNumber":****,"address":"MNO PQR Street"}]
+14:41:00.955 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.7 with PID 23424 (C:\Spring_worksplace\workspace1\Demo1\target\classes started by SadaqatKhan in C:\Spring_worksplace\workspace1\Demo1)
+14:41:00.974 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+14:41:02.691 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 2.128 seconds (process running for 2.974)
+14:41:02.698 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}
+14:41:02.701 [main] INFO  com.example.demo.Demo1Application - json{
+"name":"MAC",
+"description":"Cool",
+"price":"1200",
+"couponCode":"SUPERSALE"
+}
+14:44:36.211 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.7 with PID 14176 (C:\Spring_worksplace\workspace1\Demo1\target\classes started by SadaqatKhan in C:\Spring_worksplace\workspace1\Demo1)
+14:44:36.228 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+14:44:37.768 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 1.991 seconds (process running for 2.849)
+14:44:37.775 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}
+14:44:37.776 [main] INFO  com.example.demo.Demo1Application - json{
+"name":"MAC",
+"description":"Cool",
+"price":"1200",
+"couponCode":"SUPERSALE"
+}
+14:45:22.829 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.7 with PID 21208 (C:\Spring_worksplace\workspace1\Demo1\target\classes started by SadaqatKhan in C:\Spring_worksplace\workspace1\Demo1)
+14:45:22.842 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+14:45:24.840 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 2.447 seconds (process running for 3.301)
+14:45:24.849 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}
+14:45:24.851 [main] INFO  com.example.demo.Demo1Application - json{
+"firstName":"****",
+"description":"Cool",
+"price":"1200",
+"couponCode":"SUPERSALE"
+}
+14:46:07.076 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.7 with PID 15880 (C:\Spring_worksplace\workspace1\Demo1\target\classes started by SadaqatKhan in C:\Spring_worksplace\workspace1\Demo1)
+14:46:07.094 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+14:46:08.665 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 2.006 seconds (process running for 2.87)
+14:46:08.670 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}
+14:46:08.671 [main] INFO  com.example.demo.Demo1Application - json{
+"firstName":"****",
+"description":"Cool",
+"price":"1200",
+"couponCode":"SUPERSALE"
+}
+19:43:48.788 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.7 with PID 13356 (C:\Spring_worksplace\workspace1\Demo1\target\classes started by SadaqatKhan in C:\Spring_worksplace\workspace1\Demo1)
+19:43:48.814 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+19:43:50.691 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 2.386 seconds (process running for 5.381)
+19:43:50.703 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}
+19:43:50.705 [main] INFO  com.example.demo.Demo1Application - firstName=rahul
+19:44:24.680 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.7 with PID 21896 (C:\Spring_worksplace\workspace1\Demo1\target\classes started by SadaqatKhan in C:\Spring_worksplace\workspace1\Demo1)
+19:44:24.696 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+19:44:26.291 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 2.035 seconds (process running for 2.984)
+19:44:26.297 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}
+19:44:26.299 [main] INFO  com.example.demo.Demo1Application - firstName='****'
+19:45:07.871 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.7 with PID 15636 (C:\Spring_worksplace\workspace1\Demo1\target\classes started by SadaqatKhan in C:\Spring_worksplace\workspace1\Demo1)
+19:45:07.893 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+19:45:10.229 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 2.867 seconds (process running for 3.775)
+19:45:10.244 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}
+19:45:10.248 [main] INFO  com.example.demo.Demo1Application - firstName:'rahul'
+19:45:45.201 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.7 with PID 808 (C:\Spring_worksplace\workspace1\Demo1\target\classes started by SadaqatKhan in C:\Spring_worksplace\workspace1\Demo1)
+19:45:45.214 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+19:45:46.739 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 1.936 seconds (process running for 2.759)
+19:45:46.745 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}
+19:45:46.746 [main] INFO  com.example.demo.Demo1Application - firstName='****'
+19:46:17.023 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.7 with PID 23300 (C:\Spring_worksplace\workspace1\Demo1\target\classes started by SadaqatKhan in C:\Spring_worksplace\workspace1\Demo1)
+19:46:17.038 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+19:46:18.617 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 2.012 seconds (process running for 2.84)
+19:46:18.620 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}
+19:46:18.620 [main] INFO  com.example.demo.Demo1Application - firstName\='rahul'
+19:47:23.453 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.7 with PID 15084 (C:\Spring_worksplace\workspace1\Demo1\target\classes started by SadaqatKhan in C:\Spring_worksplace\workspace1\Demo1)
+19:47:23.467 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+19:47:25.147 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 2.1 seconds (process running for 3.054)
+19:47:25.154 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}
+19:47:25.157 [main] INFO  com.example.demo.Demo1Application - firstName\='rahul'
+20:02:08.516 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.7 with PID 3976 (C:\Spring_worksplace\workspace1\Demo1\target\classes started by SadaqatKhan in C:\Spring_worksplace\workspace1\Demo1)
+20:02:08.532 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+20:02:10.026 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 1.927 seconds (process running for 2.784)
+20:02:10.032 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}
+20:02:10.033 [main] INFO  com.example.demo.Demo1Application - firstName\='rahul'
+20:18:48.358 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.7 with PID 13400 (C:\Spring_worksplace\workspace1\Demo1\target\classes started by SadaqatKhan in C:\Spring_worksplace\workspace1\Demo1)
+20:18:48.375 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+20:18:49.870 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 1.901 seconds (process running for 4.171)
+20:18:49.883 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}
+20:18:49.884 [main] INFO  com.example.demo.Demo1Application - json{
+"firstName":"****",
+"description":"Cool",
+"price":"1200",
+"couponCode":"SUPERSALE"
+}
+20:20:59.813 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.7 with PID 13580 (C:\Spring_worksplace\workspace1\Demo1\target\classes started by SadaqatKhan in C:\Spring_worksplace\workspace1\Demo1)
+20:20:59.839 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+20:21:01.648 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 2.272 seconds (process running for 3.09)
+20:21:01.648 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}
+20:21:01.648 [main] INFO  com.example.demo.Demo1Application - json{
+"AccountNumber":"****",
+"description":"Cool",
+"price":"1200",
+"couponCode":"SUPERSALE"
+}
+20:25:42.289 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.7 with PID 20104 (C:\Spring_worksplace\workspace1\Demo1\target\classes started by SadaqatKhan in C:\Spring_worksplace\workspace1\Demo1)
+20:25:42.304 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+20:25:44.290 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 2.547 seconds (process running for 3.902)
+20:25:44.306 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}
+20:25:55.790 [main] INFO  com.example.demo.Demo1Application - json{
+"AccountNumber":"****",
+"description":"Cool",
+"price":"1200",
+"couponCode":"SUPERSALE"
+}
+20:45:54.430 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.7 with PID 6340 (C:\Spring_worksplace\workspace1\Demo1\target\classes started by SadaqatKhan in C:\Spring_worksplace\workspace1\Demo1)
+20:45:54.456 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+20:45:56.096 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 2.086 seconds (process running for 4.49)
+20:45:56.102 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='****', lastName='****', age=****, creditCardNumber=****, address='ABC XYZ Street'}
+20:45:56.104 [main] INFO  com.example.demo.Demo1Application - json{
+"AccountNumber":"****",
+"description":"Cool",
+"price":"1200",
+"couponCode":"SUPERSALE"
+}
