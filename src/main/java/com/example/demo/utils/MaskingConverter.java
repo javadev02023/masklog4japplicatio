@@ -6,10 +6,17 @@ import org.apache.logging.log4j.core.pattern.ConverterKeys;
 import org.apache.logging.log4j.core.pattern.LogEventPatternConverter;
 
 import java.util.Arrays;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @Plugin(name = "MaskingConverter", category = "Converter")
 @ConverterKeys({"mask"})
 public class MaskingConverter extends LogEventPatternConverter {
+	private static final String firstNamePattern="(?<=firstName=')[^']+?(?=')|(?<=\"firstName\":\")[^\"]+?(?=\")";
+	private static final String accountNumberPattern="(?<=AccountNumber=')[^']+?(?=')|(?<=\"AccountNumber\":\")[^\"]+?(?=\")";
+	private static final String lastNamePattern="(?<=lastName=')[^']+?(?=')|(?<=\"lastName\":\")[^\"]+?(?=\")";
+	private static final String phoneNumberPattern="(?<=phoneNumber=')[^']+?(?=')|(?<=\"phoneNumber\":\")[^\"]+?(?=\")";
+	private static final String accountNumber2Pattern="(?<=accountNumber=')[^']+?(?=')|(?<=\"accountNumber\":\")[^\"]+?(?=\")";
 
     private final PatternLayout patternLayout;
 
@@ -38,15 +45,38 @@ public class MaskingConverter extends LogEventPatternConverter {
         toAppendTo.append(maskedMessage);
     }
 
-    private String maskSensitiveValues(String message) {
-        // Replace sensitive values with masked value    	
-        message = message.replaceAll("(?<=firstName=')[^']+?(?=')|(?<=\"firstName\":\")[^\"]+?(?=\")", "****");
-        message = message.replaceAll("(?<=AccountNumber=')[^']+?(?=')|(?<=\"AccountNumber\":\")[^\"]+?(?=\")", "****");        
-		message = message.replaceAll("(?<=lastName=')[^']+?(?=')|(?<=\"lastName\":\")[^\"]+?(?=\")", "****");
-		message = message.replaceAll("(?<=age=)\\d+(?=(,|\\s|}))|(?<=\"age\":)\\d+(?=(,|\\s|}))", "****");
-		message = message.replaceAll("(?<=creditCardNumber=)\\d+(?=(,|\\s|}))|(?<=\"creditCardNumber\":)\\d+(?=(,|\\s|}))","****");
+	private String maskSensitiveValues(String message) {
+		message = message.replaceAll(accountNumberPattern,CommonUtil.maskedAccount(extractFieldValue(message, accountNumberPattern)));
+		message = message.replaceAll(firstNamePattern,CommonUtil.maskedFirstName(extractFieldValue(message, firstNamePattern)));
+		message = message.replaceAll(lastNamePattern,CommonUtil.maskedFirstName(extractFieldValue(message, lastNamePattern)));
+		message = message.replaceAll(phoneNumberPattern,CommonUtil.maskedPhoneNumber(extractFieldValue(message, phoneNumberPattern)));
+		message = message.replaceAll(accountNumber2Pattern,CommonUtil.maskedAccount2(extractFieldValue(message, accountNumber2Pattern)));
+	
+    	
+		/*
+		 * // Replace sensitive values with masked value message =
+		 * message.replaceAll(firstNamePattern, "****");
+		 * 
+		 * message = message.replaceAll(
+		 * "(?<=lastName=')[^']+?(?=')|(?<=\"lastName\":\")[^\"]+?(?=\")", "****");
+		 * message = message.replaceAll(
+		 * "(?<=age=)\\d+(?=(,|\\s|}))|(?<=\"age\":)\\d+(?=(,|\\s|}))", "****"); message
+		 * = message.replaceAll(
+		 * "(?<=creditCardNumber=)\\d+(?=(,|\\s|}))|(?<=\"creditCardNumber\":)\\d+(?=(,|\\s|}))"
+		 * ,"****");
+		 */
 		 
         return message;
+    }
+    private static String extractFieldValue(String input,String regexPatern) {
+        Pattern pattern = Pattern.compile(regexPatern);
+        Matcher matcher = pattern.matcher(input);
+
+        if (matcher.find()) {
+            return matcher.group();
+        } else {
+            return "No match found";
+        }
     }
    
 }
