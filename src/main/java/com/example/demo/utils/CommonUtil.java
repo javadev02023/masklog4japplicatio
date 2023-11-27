@@ -17,7 +17,7 @@ public class CommonUtil {
 
 	public static String maskedFirstName(String firstName) {
 		StringBuilder sb = new StringBuilder(firstName);
-		for (int i = 0; i < sb.length() - SKIP_ONE; i++) {
+		for (int i = SKIP_ONE; i < sb.length(); i++) {
 			sb.setCharAt(i, X);
 		}
 		return sb.toString();

@@ -21,6 +21,9 @@ private static final Logger logger=LogManager.getLogger(Demo1Application.class);
 		  "\"phoneNumber\":\"1234563890\",\n" + "\"accountNumber\":\"453456789\",\n" +
 		  "\"couponCode\":\"SUPERSALE\"\n" + "}";
 		  logger.info("json"+jsonString);
+		  String lastName="MCHOME";
+		  String firstName="MCHOME2";
+		  logger.info("lastName="+lastName+",firstName="+firstName);
 		
 		
 	}

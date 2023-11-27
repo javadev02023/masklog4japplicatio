@@ -12,9 +12,9 @@ import java.util.regex.Pattern;
 @Plugin(name = "MaskingConverter", category = "Converter")
 @ConverterKeys({"mask"})
 public class MaskingConverter extends LogEventPatternConverter {
-	private static final String firstNamePattern="(?<=firstName=')[^']+?(?=')|(?<=\"firstName\":\")[^\"]+?(?=\")";
+	private static final String firstNamePattern="(?<=firstName=')[^']+?(?=')|(?<=\"firstName\":\")[^\"]+?(?=\")|(?<=firstName=)[^')]+?(?=,)";
 	private static final String accountNumberPattern="(?<=AccountNumber=')[^']+?(?=')|(?<=\"AccountNumber\":\")[^\"]+?(?=\")";
-	private static final String lastNamePattern="(?<=lastName=')[^']+?(?=')|(?<=\"lastName\":\")[^\"]+?(?=\")";
+	private static final String lastNamePattern="(?<=lastName=')[^']+?(?=')|(?<=\"lastName\":\")[^\"]+?(?=\")|(?<=lastName=)[^')]+?(?=,)";
 	private static final String phoneNumberPattern="(?<=phoneNumber=')[^']+?(?=')|(?<=\"phoneNumber\":\")[^\"]+?(?=\")";
 	private static final String accountNumber2Pattern="(?<=accountNumber=')[^']+?(?=')|(?<=\"accountNumber\":\")[^\"]+?(?=\")";
 
@@ -46,11 +46,16 @@ public class MaskingConverter extends LogEventPatternConverter {
     }
 
 	private String maskSensitiveValues(String message) {
-		message = message.replaceAll(accountNumberPattern,CommonUtil.maskedAccount(extractFieldValue(message, accountNumberPattern)));
-		message = message.replaceAll(firstNamePattern,CommonUtil.maskedFirstName(extractFieldValue(message, firstNamePattern)));
-		message = message.replaceAll(lastNamePattern,CommonUtil.maskedFirstName(extractFieldValue(message, lastNamePattern)));
-		message = message.replaceAll(phoneNumberPattern,CommonUtil.maskedPhoneNumber(extractFieldValue(message, phoneNumberPattern)));
-		message = message.replaceAll(accountNumber2Pattern,CommonUtil.maskedAccount2(extractFieldValue(message, accountNumber2Pattern)));
+		if(message.contains("AccountNumber")) {
+		message = message.replaceAll(accountNumberPattern,CommonUtil.maskedAccount(extractFieldValue(message, accountNumberPattern)));}
+		if(message.contains("firstName")) {
+		message = message.replaceAll(firstNamePattern,CommonUtil.maskedFirstName(extractFieldValue(message, firstNamePattern)));}
+		if(message.contains("lastName")) {
+		message = message.replaceAll(lastNamePattern,CommonUtil.maskedFirstName(extractFieldValue(message, lastNamePattern)));}
+		if(message.contains("phoneNumber")) {
+		message = message.replaceAll(phoneNumberPattern,CommonUtil.maskedPhoneNumber(extractFieldValue(message, phoneNumberPattern)));}
+		if(message.contains("accountNumber")) {
+		message = message.replaceAll(accountNumber2Pattern,CommonUtil.maskedAccount2(extractFieldValue(message, accountNumber2Pattern)));}
 	
     	
 		/*
