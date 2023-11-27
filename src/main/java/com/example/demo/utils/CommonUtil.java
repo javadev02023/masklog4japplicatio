@@ -8,7 +8,7 @@ public class CommonUtil {
 	private static final char SKIP_UNDERSCORE = '-';
 
 	public static String maskedAccount(String accountNumber) {
-		StringBuilder sb = new StringBuilder(accountNumber);
+		StringBuilder sb = new StringBuilder();
 		for (int i = 0; i < sb.length() - SKIP_FOUR_END; i++) {
 			sb.setCharAt(i, X);
 		}
@@ -24,14 +24,13 @@ public class CommonUtil {
 	}
 
 	public static String maskedPhoneNumber(String phone) {
-		StringBuilder sb = new StringBuilder(phone);
-		for (int i = 0; i < sb.length() - SKIP_FOUR_END; i++) {
-
-			if (sb.charAt(i) != SKIP_UNDERSCORE) {
-				sb.setCharAt(i, X);
-			}
-		}
-		return sb.toString();
+		StringBuilder maskedPhone = new StringBuilder();
+		// Mask the first six digits
+		maskedPhone.append("XXX-XXX-");
+		maskedPhone.append(phone.substring(6));
+        // Display the last four digits
+		
+		return maskedPhone.toString();
 	}
 
 	public static String maskedAccount2(String accountNumber) {
