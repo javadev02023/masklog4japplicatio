@@ -173,3 +173,257 @@
 "price":"1200",
 "couponCode":"SUPERSALE"
 }
+11:31:56.337 [main] INFO  com.example.demo.Demo1ApplicationTests - Starting Demo1ApplicationTests using Java 17.0.8 with PID 17020 (started by sadaq in E:\code_2023\masklog4japplicatio)
+11:31:56.343 [main] INFO  com.example.demo.Demo1ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+11:31:57.166 [main] INFO  com.example.demo.Demo1ApplicationTests - Started Demo1ApplicationTests in 1.029 seconds (process running for 2.043)
+11:32:11.132 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 21980 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+11:32:11.144 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+11:32:12.627 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 1.815 seconds (process running for 2.372)
+11:32:12.637 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='FXXXXXX', lastName='BXXXXXX', age=20, creditCardNumber=123456788, address='ABC XYZ Street'}
+11:32:12.645 [main] INFO  com.example.demo.Demo1Application - json{
+"AccountNumber":"",
+"phoneNumber":"XXX-XXX-3890",
+"accountNumber":"45XXX6789",
+"couponCode":"SUPERSALE"
+}
+11:32:12.648 [main] INFO  com.example.demo.Demo1Application - lastName=MXXXXX,firstName=MCHOME2
+12:22:55.629 [main] INFO  com.example.demo.Demo1ApplicationTests - Starting Demo1ApplicationTests using Java 17.0.8 with PID 16892 (started by sadaq in E:\code_2023\masklog4japplicatio)
+12:22:55.635 [main] INFO  com.example.demo.Demo1ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+12:22:56.597 [main] INFO  com.example.demo.Demo1ApplicationTests - Started Demo1ApplicationTests in 1.201 seconds (process running for 2.315)
+12:24:23.108 [main] INFO  com.example.demo.Demo1ApplicationTests - Starting Demo1ApplicationTests using Java 17.0.8 with PID 16256 (started by sadaq in E:\code_2023\masklog4japplicatio)
+12:24:23.123 [main] INFO  com.example.demo.Demo1ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+12:24:24.264 [main] INFO  com.example.demo.Demo1ApplicationTests - Started Demo1ApplicationTests in 1.357 seconds (process running for 2.321)
+12:32:47.017 [main] INFO  com.example.demo.Demo1ApplicationTests - Starting Demo1ApplicationTests using Java 17.0.8 with PID 16852 (started by sadaq in E:\code_2023\masklog4japplicatio)
+12:32:47.029 [main] INFO  com.example.demo.Demo1ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+12:32:47.981 [main] INFO  com.example.demo.Demo1ApplicationTests - Started Demo1ApplicationTests in 1.159 seconds (process running for 2.269)
+12:36:35.043 [main] INFO  com.example.demo.Demo1ApplicationTests - Starting Demo1ApplicationTests using Java 17.0.8 with PID 5024 (started by sadaq in E:\code_2023\masklog4japplicatio)
+12:36:35.043 [main] INFO  com.example.demo.Demo1ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+12:36:35.929 [main] INFO  com.example.demo.Demo1ApplicationTests - Started Demo1ApplicationTests in 1.068 seconds (process running for 2.109)
+12:47:10.090 [main] INFO  com.example.demo.Demo1ApplicationTests - Starting Demo1ApplicationTests using Java 17.0.8 with PID 9000 (started by sadaq in E:\code_2023\masklog4japplicatio)
+12:47:10.106 [main] INFO  com.example.demo.Demo1ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+12:47:11.026 [main] INFO  com.example.demo.Demo1ApplicationTests - Started Demo1ApplicationTests in 1.129 seconds (process running for 2.124)
+12:48:57.003 [main] INFO  com.example.demo.Demo1ApplicationTests - Starting Demo1ApplicationTests using Java 17.0.8 with PID 15804 (started by sadaq in E:\code_2023\masklog4japplicatio)
+12:48:57.008 [main] INFO  com.example.demo.Demo1ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+12:48:57.867 [main] INFO  com.example.demo.Demo1ApplicationTests - Started Demo1ApplicationTests in 1.04 seconds (process running for 1.968)
+12:49:24.725 [main] INFO  com.example.demo.Demo1ApplicationTests - Starting Demo1ApplicationTests using Java 17.0.8 with PID 5432 (started by sadaq in E:\code_2023\masklog4japplicatio)
+12:49:24.741 [main] INFO  com.example.demo.Demo1ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+12:49:25.622 [main] INFO  com.example.demo.Demo1ApplicationTests - Started Demo1ApplicationTests in 1.061 seconds (process running for 1.984)
+12:50:43.299 [main] INFO  com.example.demo.Demo1ApplicationTests - Starting Demo1ApplicationTests using Java 17.0.8 with PID 5492 (started by sadaq in E:\code_2023\masklog4japplicatio)
+12:50:43.314 [main] INFO  com.example.demo.Demo1ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+12:50:44.289 [main] INFO  com.example.demo.Demo1ApplicationTests - Started Demo1ApplicationTests in 1.202 seconds (process running for 2.203)
+12:51:00.119 [main] INFO  com.example.demo.Demo1ApplicationTests - Starting Demo1ApplicationTests using Java 17.0.8 with PID 19188 (started by sadaq in E:\code_2023\masklog4japplicatio)
+12:51:00.119 [main] INFO  com.example.demo.Demo1ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+12:51:01.009 [main] INFO  com.example.demo.Demo1ApplicationTests - Started Demo1ApplicationTests in 1.111 seconds (process running for 2.037)
+12:52:19.052 [main] INFO  com.example.demo.Demo1ApplicationTests - Starting Demo1ApplicationTests using Java 17.0.8 with PID 21372 (started by sadaq in E:\code_2023\masklog4japplicatio)
+12:52:19.068 [main] INFO  com.example.demo.Demo1ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+12:52:20.118 [main] INFO  com.example.demo.Demo1ApplicationTests - Started Demo1ApplicationTests in 1.289 seconds (process running for 2.763)
+12:56:43.852 [main] INFO  com.example.demo.Demo1Application - json{
+"AccountNumber":"",
+"phoneNumber":"XXX-XXX-3890",
+"accountNumber":"45XXX6789",
+"couponCode":"SUPERSALE"
+}
+13:16:17.745 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 6504 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+13:17:21.896 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+13:17:48.275 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 91.008 seconds (process running for 92.034)
+13:31:19.666 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 11644 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+13:31:43.790 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+13:32:14.374 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 55.176 seconds (process running for 58.914)
+13:41:20.330 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 9868 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+13:42:15.525 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+13:42:41.474 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 81.593 seconds (process running for 82.502)
+13:42:58.820 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='FXXXXXX', lastName='BXXXXXX', age=20, creditCardNumber=123456788, address='ABC XYZ Street'}
+13:43:58.641 [main] INFO  com.example.demo.Demo1Application - json{
+"AccountNumber":"",
+"phoneNumber":"",
+"accountNumber":"45XXX6789",
+"couponCode":"SUPERSALE"
+}
+13:44:20.044 [main] INFO  com.example.demo.Demo1Application - lastName=MXXXXX,firstName=MCHOME2
+13:46:40.032 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 7756 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+13:46:40.047 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+13:46:41.727 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 2.091 seconds (process running for 2.957)
+13:46:41.732 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='FXXXXXX', lastName='BXXXXXX', age=20, creditCardNumber=123456788, address='ABC XYZ Street'}
+13:46:41.734 [main] INFO  com.example.demo.Demo1Application - json{
+"AccountNumber":"",
+"phoneNumber":"",
+"accountNumber":"45XXX6789",
+"couponCode":"SUPERSALE"
+}
+13:46:41.738 [main] INFO  com.example.demo.Demo1Application - lastName=MXXXXX,firstName=MCHOME2
+13:48:51.240 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 23264 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+13:49:07.706 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+13:49:10.789 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 20.103 seconds (process running for 21.004)
+13:49:15.570 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='FXXXXXX', lastName='BXXXXXX', age=20, creditCardNumber=123456788, address='ABC XYZ Street'}
+14:06:45.754 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 22188 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+14:06:51.142 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+14:06:52.849 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 7.612 seconds (process running for 8.541)
+14:06:52.854 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person{firstName='FXXXXXX', lastName='BXXXXXX', age=20, creditCardNumber=123456788, address='ABC XYZ Street'}
+14:06:52.857 [main] INFO  com.example.demo.Demo1Application - json{
+"AccountNumber":"",
+"phoneNumber":"",
+"accountNumber":"45XXX6789",
+"couponCode":"SUPERSALE"
+}
+14:06:52.858 [main] INFO  com.example.demo.Demo1Application - lastName=MXXXXX,firstName=MCHOME2
+14:10:30.379 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 4448 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+14:10:30.398 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+14:10:32.068 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 2.152 seconds (process running for 3.032)
+14:10:32.073 [main] INFO  com.example.demo.Demo1Application - Person Data {AccountNumber}123456789
+14:10:32.076 [main] INFO  com.example.demo.Demo1Application - lastName=MXXXXX,firstName=MCHOME2
+14:12:03.763 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 16336 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+14:12:03.778 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+14:12:05.455 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 2.145 seconds (process running for 2.983)
+14:12:05.459 [main] INFO  com.example.demo.Demo1Application - AccountNumber=123456789
+14:12:05.461 [main] INFO  com.example.demo.Demo1Application - lastName=MXXXXX,firstName=MCHOME2
+14:17:24.881 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 18212 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+14:17:24.901 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+14:17:26.596 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 2.174 seconds (process running for 2.97)
+14:17:26.601 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person [firstName=FXXXXXX, lastName=BXXXXXX, age=20, creditCardNumber=123456788, address=ABC XYZ Street, AccountNumber=123456789]
+14:20:39.781 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 120 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+14:20:39.795 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+14:20:41.122 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 1.648 seconds (process running for 2.247)
+14:20:41.126 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person [firstName=FXXXXXX, lastName=BXXXXXX, age=20, creditCardNumber=123456788, address=ABC XYZ Street, AccountNumber=123456789]
+14:21:53.668 [http-nio-8010-exec-1] INFO  com.example.demo.controller.PersonController - Person List [Person [firstName=FXX, lastName=BXX, age=25, creditCardNumber=123456789, address=ABC XYZ Street, AccountNumber=12345678,], Person [firstName=FXX, lastName=BXX, age=30, creditCardNumber=987654321, address=MNO PQR Street, AccountNumber=12345678,]]
+14:21:53.708 [http-nio-8010-exec-1] INFO  com.example.demo.controller.PersonController - Person List - JSON output [{"firstName":"FXX","lastName":"BXX","age":25,"creditCardNumber":123456789,"address":"ABC XYZ Street","accountNumber":"12XXX678,"},{"firstName":"FXX","lastName":"BXX","age":30,"creditCardNumber":987654321,"address":"MNO PQR Street","accountNumber":"12XXX678,"}]
+14:23:58.200 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 23592 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+14:23:58.210 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+14:23:59.552 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 1.682 seconds (process running for 2.242)
+14:23:59.556 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person [firstName=FXXXXXX, lastName=BXXXXXX, age=20, creditCardNumber=123456788, address=ABC XYZ Street, AccountNumber=123456789]
+14:24:09.967 [http-nio-8010-exec-1] INFO  com.example.demo.controller.PersonController - Person List [Person [firstName=FXX, lastName=BXX, age=25, creditCardNumber=123456789, address=ABC XYZ Street, AccountNumber=12345678,], Person [firstName=FXX, lastName=BXX, age=30, creditCardNumber=987654321, address=MNO PQR Street, AccountNumber=12345678,]]
+14:24:09.998 [http-nio-8010-exec-1] INFO  com.example.demo.controller.PersonController - Person List - JSON output [{"firstName":"FXX","lastName":"BXX","age":25,"creditCardNumber":123456789,"address":"ABC XYZ Street","accountNumber":"12XXX678,"},{"firstName":"FXX","lastName":"BXX","age":30,"creditCardNumber":987654321,"address":"MNO PQR Street","accountNumber":"12XXX678,"}]
+14:25:59.805 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 15660 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+14:25:59.817 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+14:26:01.180 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 1.676 seconds (process running for 2.196)
+14:26:01.185 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person [firstName=FXXXXXX, lastName=BXXXXXX, age=20, creditCardNumber=123456788, address=ABC XYZ Street, AccountNumber=123456789]
+14:26:01.187 [main] INFO  com.example.demo.Demo1Application - Person Data {AccountNumber}123456789
+14:26:01.188 [main] INFO  com.example.demo.Demo1Application - json{
+"accountNumber":"12XXX6789",
+"phoneNumber":"",
+"accountNumber":"12XXX6789",
+"couponCode":"SUPERSALE"
+}
+14:26:01.190 [main] INFO  com.example.demo.Demo1Application - lastName=MXXXXX,firstName=MCHOME2
+20:15:47.519 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 14252 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+20:15:47.531 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+20:15:49.088 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 1.895 seconds (process running for 2.48)
+20:15:49.102 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person [firstName=FXXXXXX, lastName=BXXXXXX, age=20, creditCardNumber=123456788, address=ABC XYZ Street, AccountNumber=123456789]
+20:15:49.105 [main] INFO  com.example.demo.Demo1Application - Person Data {AccountNumber}123456789
+20:15:49.107 [main] INFO  com.example.demo.Demo1Application - json{
+"accountNumber":"12XXX6789",
+"phoneNumber":"",
+"accountNumber":"12XXX6789",
+"couponCode":"SUPERSALE"
+}
+20:15:49.111 [main] INFO  com.example.demo.Demo1Application - phoneNumber=''
+20:15:49.114 [main] INFO  com.example.demo.Demo1Application - lastName=MXXXXX,firstName=MCHOME2
+20:16:22.190 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 22004 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+20:16:22.207 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+20:16:23.603 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 1.732 seconds (process running for 2.364)
+20:16:23.608 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person [firstName=FXXXXXX, lastName=BXXXXXX, age=20, creditCardNumber=123456788, address=ABC XYZ Street, AccountNumber=123456789]
+20:16:23.610 [main] INFO  com.example.demo.Demo1Application - Person Data {AccountNumber}123456789
+20:16:23.612 [main] INFO  com.example.demo.Demo1Application - json{
+"AccountNumber":"",
+"phoneNumber":"",
+"accountNumber":"45XXX6789",
+"couponCode":"SUPERSALE"
+}
+20:16:23.614 [main] INFO  com.example.demo.Demo1Application - phoneNumber=''
+20:16:23.615 [main] INFO  com.example.demo.Demo1Application - lastName=MXXXXX,firstName=MCHOME2
+20:17:38.148 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 15320 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+20:17:38.158 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+20:17:39.413 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 1.564 seconds (process running for 2.096)
+20:17:39.416 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person [firstName=FXXXXXX, lastName=BXXXXXX, age=20, creditCardNumber=123456788, address=ABC XYZ Street, AccountNumber=123456789]
+20:17:39.418 [main] INFO  com.example.demo.Demo1Application - Person Data {AccountNumber}123456789
+20:17:39.419 [main] INFO  com.example.demo.Demo1Application - json{
+"AccountNumber":"",
+"phoneNumber":"",
+"accountNumber":"45XXX6789",
+"couponCode":"SUPERSALE"
+}
+20:17:39.421 [main] INFO  com.example.demo.Demo1Application - phoneNumber=''
+20:17:39.422 [main] INFO  com.example.demo.Demo1Application - lastName=MXXXXX,firstName=MCHOME2
+20:17:48.714 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 6412 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+20:17:48.723 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+20:17:49.905 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 1.488 seconds (process running for 2.033)
+20:17:49.912 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person [firstName=FXXXXXX, lastName=BXXXXXX, age=20, creditCardNumber=123456788, address=ABC XYZ Street, AccountNumber=123456789]
+20:17:49.914 [main] INFO  com.example.demo.Demo1Application - Person Data {AccountNumber}123456789
+20:17:49.916 [main] INFO  com.example.demo.Demo1Application - json{
+"AccountNumber":"",
+"phoneNumber":"",
+"accountNumber":"45XXX6789",
+"couponCode":"SUPERSALE"
+}
+20:17:49.917 [main] INFO  com.example.demo.Demo1Application - phoneNumber=''
+20:17:49.918 [main] INFO  com.example.demo.Demo1Application - lastName=MXXXXX,firstName=MCHOME2
+20:19:53.881 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 8100 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+20:19:53.906 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+20:19:55.593 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 2.125 seconds (process running for 2.881)
+20:19:55.597 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person [firstName=FXXXXXX, lastName=BXXXXXX, age=20, creditCardNumber=123456788, address=ABC XYZ Street, AccountNumber=123456789]
+20:25:41.465 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 20632 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+20:25:41.479 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+20:25:43.091 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 2.115 seconds (process running for 3.079)
+20:25:43.096 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person [firstName=FXXXXXX, lastName=BXXXXXX, age=20, creditCardNumber=123456788, address=ABC XYZ Street, AccountNumber=123456789]
+20:26:19.268 [main] INFO  com.example.demo.Demo1Application - Person Data {AccountNumber}123456789
+20:26:52.723 [main] INFO  com.example.demo.Demo1Application - json{
+"AccountNumber":"",
+"phoneNumber":"",
+"accountNumber":"45XXX6789",
+"couponCode":"SUPERSALE"
+}
+20:26:55.107 [main] INFO  com.example.demo.Demo1Application - phoneNumber=''
+20:26:56.655 [main] INFO  com.example.demo.Demo1Application - lastName=MXXXXX,firstName=MCHOME2
+20:36:31.801 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 8720 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+20:36:31.825 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+20:36:33.197 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 1.707 seconds (process running for 2.281)
+20:36:33.202 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person [firstName=FXXXXXX, lastName=BXXXXXX, age=20, creditCardNumber=123456788, address=ABC XYZ Street, AccountNumber=123456789]
+20:36:33.205 [main] INFO  com.example.demo.Demo1Application - Person Data {AccountNumber}123456789
+20:36:33.207 [main] INFO  com.example.demo.Demo1Application - json{
+"accountNumber":"12XXX6789",
+"phoneNumber":"",
+"AccountNumber":"",
+"couponCode":"SUPERSALE"
+}
+20:36:33.209 [main] INFO  com.example.demo.Demo1Application - phoneNumber=''
+20:36:33.210 [main] INFO  com.example.demo.Demo1Application - lastName=MXXXXX,firstName=MCHOME2
+20:37:47.811 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 3492 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+20:37:47.828 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+20:37:49.119 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 1.6 seconds (process running for 2.162)
+20:37:49.123 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person [firstName=FXXXXXX, lastName=BXXXXXX, age=20, creditCardNumber=123456788, address=ABC XYZ Street, AccountNumber=123456789]
+20:37:49.126 [main] INFO  com.example.demo.Demo1Application - Person Data {AccountNumber}123456789
+20:37:49.127 [main] INFO  com.example.demo.Demo1Application - json{
+"accountNumber":"123456789",
+"phoneNumber":"",
+"AccountNumber":"",
+"couponCode":"SUPERSALE"
+}
+20:37:49.128 [main] INFO  com.example.demo.Demo1Application - phoneNumber=''
+20:37:49.129 [main] INFO  com.example.demo.Demo1Application - lastName=MXXXXX,firstName=MCHOME2
+20:38:42.229 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 24388 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+20:38:42.243 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+20:38:43.630 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 1.728 seconds (process running for 2.273)
+20:38:43.635 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person [firstName=FXXXXXX, lastName=BXXXXXX, age=20, creditCardNumber=123456788, address=ABC XYZ Street, AccountNumber=123456789]
+20:38:43.638 [main] INFO  com.example.demo.Demo1Application - Person Data {AccountNumber}123456789
+20:38:43.639 [main] INFO  com.example.demo.Demo1Application - json{
+"accountNumber":"12XXX6789",
+"phoneNumber":"",
+"AccountNumber":"",
+"couponCode":"SUPERSALE"
+}
+20:38:43.641 [main] INFO  com.example.demo.Demo1Application - phoneNumber=''
+20:38:43.642 [main] INFO  com.example.demo.Demo1Application - lastName=MXXXXX,firstName=MCHOME2
+20:40:49.938 [main] INFO  com.example.demo.Demo1Application - Starting Demo1Application using Java 17.0.8 with PID 19228 (E:\code_2023\masklog4japplicatio\target\classes started by sadaq in E:\code_2023\masklog4japplicatio)
+20:40:49.947 [main] INFO  com.example.demo.Demo1Application - No active profile set, falling back to 1 default profile: "default"
+20:40:51.234 [main] INFO  com.example.demo.Demo1Application - Started Demo1Application in 1.602 seconds (process running for 2.222)
+20:40:51.238 [main] INFO  com.example.demo.Demo1Application - Person Data {}Person [firstName=FXXXXXX, lastName=BXXXXXX, age=20, creditCardNumber=123456788, address=ABC XYZ Street, AccountNumber=123456789]
+20:40:51.241 [main] INFO  com.example.demo.Demo1Application - Person Data {AccountNumber}123456789
+20:40:51.242 [main] INFO  com.example.demo.Demo1Application - json{
+"accountNumber":"12XXX6789",
+"phoneNumber":"",
+"AccountNumber":"",
+"couponCode":"SUPERSALE"
+}
+20:40:51.243 [main] INFO  com.example.demo.Demo1Application - phoneNumber=''
+20:40:51.244 [main] INFO  com.example.demo.Demo1Application - lastName=MXXXXX,firstName=MCHOME2
+20:41:37.140 [http-nio-8010-exec-1] INFO  com.example.demo.controller.PersonController - Person List [Person [firstName=FXX, lastName=BXX, age=25, creditCardNumber=123456789, address=ABC XYZ Street, AccountNumber=12345678,], Person [firstName=FXX, lastName=BXX, age=30, creditCardNumber=987654321, address=MNO PQR Street, AccountNumber=12345678,]]
+20:41:37.177 [http-nio-8010-exec-1] INFO  com.example.demo.controller.PersonController - Person List - JSON output [{"firstName":"FXX","lastName":"BXX","age":25,"creditCardNumber":123456789,"address":"ABC XYZ Street","accountNumber":"12XXX678,"},{"firstName":"FXX","lastName":"BXX","age":30,"creditCardNumber":987654321,"address":"MNO PQR Street","accountNumber":"12XXX678,"}]

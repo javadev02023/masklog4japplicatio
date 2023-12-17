@@ -23,8 +23,8 @@ public class PersonController {
     @GetMapping("list/person")
     public ResponseEntity<List<Person>> getPersonList() throws JsonProcessingException {
         List<Person> personList = List.of(
-                new Person("Foo", "Bar", 25, 123456789, "ABC XYZ Street"),
-                new Person("Baz", "Qux", 30, 987654321, "MNO PQR Street")
+                new Person("Foo", "Bar", 25, 123456789, "ABC XYZ Street","12345678,"),
+                new Person("Baz", "Qux", 30, 987654321, "MNO PQR Street","12345678,")
         );
 
         logger.info("Person List {}", personList);
